@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Juniper & Grain</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-panel">
+      <img src="img/logo.png" alt="Juniper & Grain" class="logo">
+      <div class="brand-copy">
+        <p class="eyebrow">Coffee · Bakery · Café</p>
+        <h1>Our Menu</h1>
+        <p class="tagline">Good coffee, warm bread, and a little time to stay.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Your script builds one button per category in here. -->
+    <nav id="filters" aria-label="Filter menu by category"></nav>
+
+    <!-- Loading and error messages go here. -->
+    <p id="status" role="status" aria-live="polite"></p>
+
+    <!-- Your script builds the category headings and item cards in here. -->
+    <section id="menu"></section>
+  </main>
+</body>
+</html>
